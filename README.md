@@ -32,7 +32,9 @@
 
 6. **Run the Application**
 
-   - Open a web browser and access the application at: "localhost/(folder_name containing project files)"
+   - Run sql script in sql/webcrawler.sql in you mysql database
+   - Change connection settings from config/connection.php
+   - Type url localhost/webcrawler in your browser and crawler will be working.
 
 
 ### Using Crawler
@@ -41,3 +43,5 @@
 2. Click the "Search" button.
 3. Once the crawling process is finished, you'll be redirected to a page where you can search for specific keywords in the crawled data.
 4. All crawled data will be stored in the "jsondata" folder, with each unique URL having its own JSON file.
+
+
