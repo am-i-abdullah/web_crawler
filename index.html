@@ -1,0 +1,37 @@
+
+<!--link of git :  https://github.com/am-i-hira/web-Crawler -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crawler</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="cont" id="searchCont">
+        <!-- Header for the search form -->
+        <h2 class="heading">Crawler</h2>
+
+        <!-- Search form -->
+        <form action="crawl.php" method="POST">
+            <div class="container">
+                <!-- Input fields for URL and depth -->
+                <div class="input-cont">
+                    <input class="input1" type="text" placeholder="Url" name="url" id="url">
+                    <input class="input2" type="text" placeholder="Depth" name="depth" id="depth">
+                </div>
+                <br>
+
+                <!-- Submit button for the form -->
+                <button type="submit" class="search">Search</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
