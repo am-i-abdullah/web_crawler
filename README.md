@@ -11,12 +11,12 @@
 
 1. **Clone the Repository**
 
-   ``` https://github.com/am-i-abdullah/web_-_crawler.git
-   ```
+   - URL: https://github.com/am-i-abdullah/web_crawler.git
+   
 
 2. **Setting Up Database**
 
-  - Import the file named "dbsearch.sql" into your MySQL database. This file sets up the required tables.
+   - Import the file named "dbsearch.sql" into your MySQL database. This file sets up the required tables.
 
 3. **Connect to the Database**
 
