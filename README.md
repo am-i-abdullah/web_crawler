@@ -11,7 +11,7 @@
 
 1. **Clone the Repository**
 
-   ```https://github.com/am-i-abdullah/web_-_crawler.git
+   ``` https://github.com/am-i-abdullah/web_-_crawler.git
    ```
 
 2. **Setting Up Database**
